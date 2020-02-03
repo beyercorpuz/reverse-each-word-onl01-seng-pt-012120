@@ -2,7 +2,7 @@ def reverse_each_word(words)
 	
 	words_array = words.split(' ')
 	reversed = words_array.collect{|item| item.reverse}
-  result = 
+  result = reverse.join()
 	
 end
   

@@ -1,4 +1,4 @@
-def reverse_each_word("The Superbowl Was Good") 
+def reverse_each_word(words) 
 	result = []
 	words_array = words.split(' ')
 	result = words_array.collect{|item| item.reverse}

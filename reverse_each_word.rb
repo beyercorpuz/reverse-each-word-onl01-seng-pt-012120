@@ -1,7 +1,8 @@
 def reverse_each_word(words) 
-	result = []
+	result = ''
 	words_array = words.split(' ')
-	result = words_array.collect{|item| item.reverse}
+	reversed = words_array.collect{|item| item.reverse}
+  
 	
 end
   
